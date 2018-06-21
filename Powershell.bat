@@ -1,0 +1,1 @@
+powershell start-process powershell -verb runas -ArgumentList "{-NoExit -ExecutionPolicy bypass -Command cd \\REDACTED\Renders}"
