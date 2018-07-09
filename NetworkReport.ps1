@@ -85,7 +85,7 @@ $buildmachinePdisks = Get-DiskSpace -devices $buildmachines -drive "P" | Sort-Ob
 "Total offline computers$offlinecomputers"
 
 [string]$header = "The following report was run on $date"
-ConvertTo-Html -Title "Imaginati Network Summary" -Head '<link rel="stylesheet" type="text/css" href="http://REDACTED/NetworkReport.css">'`
+ConvertTo-Html -Title "Network Summary" -Head '<link rel="stylesheet" type="text/css" href="http://REDACTED/NetworkReport.css">'`
  -Body `
  '<div class="section"><h1>Imaginati Network Summary</h1>', $header, '</div>', `
  '<div id="server" class=section>', `
